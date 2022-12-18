@@ -1,4 +1,7 @@
-import calendar
+"""
+calcular la nueva fecha (dia habil), dependiendo un numero determinado 
+"""
+
 import holidays_co
 from datetime import date
 from datetime import timedelta
@@ -12,8 +15,11 @@ for i in ahnos:
 
 lista_feriados=[]
 for i in range(len(lista_f)):
+    """ recorrera la lista inicialmente por años """
     for j in range(len(lista_f[i])):
+        """ recorrera el set de datos y solo cargara las fechas """
         lista_feriados.append(lista_f[i][j][0])
+
 
 def dias_hab(Fecha,dias):
     lista_dias = []
