@@ -1,0 +1,118 @@
+2024-01-03 14:16:28,310 - INFO - Fecha Proceso: 2024-01-03 14:16:28.310516
+2024-01-03 14:16:28,311 - INFO - Fecha Corte  : 2023-12-29
+2024-01-03 14:16:28,311 - INFO - Estableciendo conexion Datos Abiertos https://www.datos.gov.co/resource/qhpu-8ixx.json
+2024-01-03 14:16:33,374 - INFO - Los Datos fueron Extraidos exitosamente de Datos Abiertos para el corte comprendido entre 2023-12-29 y 2023-12-29
+2024-01-03 14:16:33,374 - INFO - Estableciendo conexion TeraData
+2024-01-03 14:16:35,751 - WARNING - Error de conexión: [Version 17.20.0.29] [Session 0] [Teradata SQL Driver] Hostname lookup failed for 11.11.111.111.111.111
+ at gosqldriver/teradatasql.formatError ErrorUtil.go:89
+ at gosqldriver/teradatasql.(*teradataConnection).makeDriverError ErrorUtil.go:180
+ at gosqldriver/teradatasql.(*nameLookup).getAddresses CopDiscovery.go:95
+ at gosqldriver/teradatasql.discoverCops CopDiscovery.go:177
+ at gosqldriver/teradatasql.newTeradataConnection TeradataConnection.go:156
+ at gosqldriver/teradatasql.(*teradataDriver).Open TeradataDriver.go:32
+ at database/sql.dsnConnector.Connect sql.go:759
+ at database/sql.(*DB).conn sql.go:1393
+ at database/sql.(*DB).Conn sql.go:1926
+ at main.goCreateConnection goside.go:298
+ at _cgoexp_2a23d297bb44_goCreateConnection _cgo_gotypes.go:263
+ at runtime.cgocallbackg1 cgocall.go:316
+ at runtime.cgocallbackg cgocall.go:235
+ at runtime.cgocallback asm_amd64.s:994
+ at runtime.goexit asm_amd64.s:1594
+Caused by lookup 11.11.111.111.111.111: no such host
+2024-01-03 14:16:35,751 - INFO - Los Datos fueron Extraidos Exitosamente de Teradata para el corte comprendido entre 2023-12-29 y 2023-12-29
+2024-01-03 14:33:00,595 - INFO - Fecha Proceso: 2024-01-03 14:33:00.595744
+2024-01-03 14:33:00,596 - INFO - Fecha Corte  : 2023-12-29
+2024-01-03 14:33:00,596 - INFO - Estableciendo conexion Datos Abiertos https://www.datos.gov.co/resource/qhpu-8ixx.json
+2024-01-03 14:33:04,399 - INFO - Los Datos fueron Extraidos exitosamente de Datos Abiertos para el corte comprendido entre 2023-12-29 y 2023-12-29
+2024-01-03 14:33:04,399 - INFO - Estableciendo conexion TeraData
+2024-01-03 14:33:04,402 - WARNING - Error de conexión: [Version 17.20.0.29] [Session 0] [Teradata SQL Driver] Hostname lookup failed for 11.11.111.111.111.111
+ at gosqldriver/teradatasql.formatError ErrorUtil.go:89
+ at gosqldriver/teradatasql.(*teradataConnection).makeDriverError ErrorUtil.go:180
+ at gosqldriver/teradatasql.(*nameLookup).getAddresses CopDiscovery.go:95
+ at gosqldriver/teradatasql.discoverCops CopDiscovery.go:177
+ at gosqldriver/teradatasql.newTeradataConnection TeradataConnection.go:156
+ at gosqldriver/teradatasql.(*teradataDriver).Open TeradataDriver.go:32
+ at database/sql.dsnConnector.Connect sql.go:759
+ at database/sql.(*DB).conn sql.go:1393
+ at database/sql.(*DB).Conn sql.go:1926
+ at main.goCreateConnection goside.go:298
+ at _cgoexp_2a23d297bb44_goCreateConnection _cgo_gotypes.go:263
+ at runtime.cgocallbackg1 cgocall.go:316
+ at runtime.cgocallbackg cgocall.go:235
+ at runtime.cgocallback asm_amd64.s:994
+ at runtime.goexit asm_amd64.s:1594
+Caused by lookup 11.11.111.111.111.111: no such host
+2024-01-03 14:34:03,984 - WARNING - Error de conexión: [Version 17.20.0.29] [Session 0] [Teradata SQL Driver] Hostname lookup failed for 11.11.111.111.111.111
+ at gosqldriver/teradatasql.formatError ErrorUtil.go:89
+ at gosqldriver/teradatasql.(*teradataConnection).makeDriverError ErrorUtil.go:180
+ at gosqldriver/teradatasql.(*nameLookup).getAddresses CopDiscovery.go:95
+ at gosqldriver/teradatasql.discoverCops CopDiscovery.go:177
+ at gosqldriver/teradatasql.newTeradataConnection TeradataConnection.go:156
+ at gosqldriver/teradatasql.(*teradataDriver).Open TeradataDriver.go:32
+ at database/sql.dsnConnector.Connect sql.go:759
+ at database/sql.(*DB).conn sql.go:1393
+ at database/sql.(*DB).Conn sql.go:1926
+ at main.goCreateConnection goside.go:298
+ at _cgoexp_2a23d297bb44_goCreateConnection _cgo_gotypes.go:263
+ at runtime.cgocallbackg1 cgocall.go:316
+ at runtime.cgocallbackg cgocall.go:235
+ at runtime.cgocallback asm_amd64.s:994
+ at runtime.goexit asm_amd64.s:1594
+Caused by lookup 11.11.111.111.111.111: no such host
+2024-01-03 14:39:32,301 - WARNING - Error de conexión: [Version 17.20.0.29] [Session 0] [Teradata SQL Driver] Hostname lookup failed for 11.11.111.111.111.111
+ at gosqldriver/teradatasql.formatError ErrorUtil.go:89
+ at gosqldriver/teradatasql.(*teradataConnection).makeDriverError ErrorUtil.go:180
+ at gosqldriver/teradatasql.(*nameLookup).getAddresses CopDiscovery.go:95
+ at gosqldriver/teradatasql.discoverCops CopDiscovery.go:177
+ at gosqldriver/teradatasql.newTeradataConnection TeradataConnection.go:156
+ at gosqldriver/teradatasql.(*teradataDriver).Open TeradataDriver.go:32
+ at database/sql.dsnConnector.Connect sql.go:759
+ at database/sql.(*DB).conn sql.go:1393
+ at database/sql.(*DB).Conn sql.go:1926
+ at main.goCreateConnection goside.go:298
+ at _cgoexp_2a23d297bb44_goCreateConnection _cgo_gotypes.go:263
+ at runtime.cgocallbackg1 cgocall.go:316
+ at runtime.cgocallbackg cgocall.go:235
+ at runtime.cgocallback asm_amd64.s:994
+ at runtime.goexit asm_amd64.s:1594
+Caused by lookup 11.11.111.111.111.111: no such host
+2024-01-03 14:40:33,213 - WARNING - Error de conexión: [Version 17.20.0.29] [Session 0] [Teradata SQL Driver] Hostname lookup failed for 11.11.111.111.111.111
+ at gosqldriver/teradatasql.formatError ErrorUtil.go:89
+ at gosqldriver/teradatasql.(*teradataConnection).makeDriverError ErrorUtil.go:180
+ at gosqldriver/teradatasql.(*nameLookup).getAddresses CopDiscovery.go:95
+ at gosqldriver/teradatasql.discoverCops CopDiscovery.go:177
+ at gosqldriver/teradatasql.newTeradataConnection TeradataConnection.go:156
+ at gosqldriver/teradatasql.(*teradataDriver).Open TeradataDriver.go:32
+ at database/sql.dsnConnector.Connect sql.go:759
+ at database/sql.(*DB).conn sql.go:1393
+ at database/sql.(*DB).Conn sql.go:1926
+ at main.goCreateConnection goside.go:298
+ at _cgoexp_2a23d297bb44_goCreateConnection _cgo_gotypes.go:263
+ at runtime.cgocallbackg1 cgocall.go:316
+ at runtime.cgocallbackg cgocall.go:235
+ at runtime.cgocallback asm_amd64.s:994
+ at runtime.goexit asm_amd64.s:1594
+Caused by lookup 11.11.111.111.111.111: no such host
+2024-01-03 14:47:54,002 - INFO - Fecha Proceso: 2024-01-03 14:47:54.002326
+2024-01-03 14:47:54,003 - INFO - Fecha Corte  : 2023-12-29
+2024-01-03 14:47:54,003 - INFO - Estableciendo conexion Datos Abiertos https://www.datos.gov.co/resource/qhpu-8ixx.json
+2024-01-03 14:47:58,034 - INFO - Los Datos fueron Extraidos exitosamente de Datos Abiertos para el corte comprendido entre 2023-12-29 y 2023-12-29
+2024-01-03 14:47:58,034 - INFO - Estableciendo conexion TeraData
+2024-01-03 14:48:00,045 - WARNING - Error de conexión: [Version 17.20.0.29] [Session 0] [Teradata SQL Driver] Hostname lookup failed for 11.11.111.111.111.111
+ at gosqldriver/teradatasql.formatError ErrorUtil.go:89
+ at gosqldriver/teradatasql.(*teradataConnection).makeDriverError ErrorUtil.go:180
+ at gosqldriver/teradatasql.(*nameLookup).getAddresses CopDiscovery.go:95
+ at gosqldriver/teradatasql.discoverCops CopDiscovery.go:177
+ at gosqldriver/teradatasql.newTeradataConnection TeradataConnection.go:156
+ at gosqldriver/teradatasql.(*teradataDriver).Open TeradataDriver.go:32
+ at database/sql.dsnConnector.Connect sql.go:759
+ at database/sql.(*DB).conn sql.go:1393
+ at database/sql.(*DB).Conn sql.go:1926
+ at main.goCreateConnection goside.go:298
+ at _cgoexp_2a23d297bb44_goCreateConnection _cgo_gotypes.go:263
+ at runtime.cgocallbackg1 cgocall.go:316
+ at runtime.cgocallbackg cgocall.go:235
+ at runtime.cgocallback asm_amd64.s:994
+ at runtime.goexit asm_amd64.s:1594
+Caused by lookup 11.11.111.111.111.111: no such host
