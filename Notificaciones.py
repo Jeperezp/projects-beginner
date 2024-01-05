@@ -91,7 +91,7 @@ def notificacion_final(format, difference,start_date,end_date, file, log):
                     # Agregar cada elemento como un ítem de lista en el correo HTML
             for diferencia in diferencias_leidas:
                 message_html += f"<li>{diferencia['Observacion']}: {diferencia['Cantidad']}</li>"
-                
+                #agregar adjunto
                 mail.Attachments.Add(diferencia['Ruta'])
 
             message_html += """

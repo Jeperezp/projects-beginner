@@ -7,7 +7,6 @@ import logging
 
 class Conexion_TDTA:
 
-
     def __init__(self, host:str, user:str, password:str):
         """
         stores the parameters to establish a connection to the database
