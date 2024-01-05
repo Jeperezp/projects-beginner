@@ -62,9 +62,9 @@ if not os.path.exists(Folder_path):
 log =      Folder_path +'\\'+  str(month_) + str(day_)+str(year_)+"_F523.log"
 logging.basicConfig(filename=log, level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-hosttd="10.40.176.7"  #hostname o IP de Teradata
-userdb="dwh_consulta" #usuario de base de datos
-pss = 'dwh_consulta'
+hosttd="----"  #hostname o IP de Teradata
+userdb="-----" #usuario de base de datos
+pss = '-----'
 
 Select_from = """SELECT
     dt.FECHA_CORTE
